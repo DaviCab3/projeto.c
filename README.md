@@ -57,7 +57,7 @@ Parâmetros: título (string), ano (inteiro).
 
 Retorno: ponteiro para o filme criado.
 
-Ator* criarAtor(char *nome)
+```Ator* criarAtor(char *nome)```
 
 Cria um novo ator.
 
@@ -65,7 +65,7 @@ Parâmetros: nome do ator (string).
 
 Retorno: ponteiro para o ator criado.
 
-int inserirFilme(Filme **lista, Filme *novo)
+```int inserirFilme(Filme **lista, Filme *novo)```
 
 Insere um filme em uma lista de filmes.
 
@@ -73,7 +73,7 @@ Parâmetros: ponteiro para a lista de filmes, ponteiro para o novo filme.
 
 Retorno: 1 se inserido com sucesso, 0 caso contrário.
 
-int inserirAtor(Filme *filme, Ator *novo)
+```int inserirAtor(Filme *filme, Ator *novo)```
 
 Insere um ator em um filme específico.
 
@@ -81,7 +81,7 @@ Parâmetros: ponteiro para o filme, ponteiro para o ator.
 
 Retorno: 1 se inserido com sucesso, 0 caso contrário.
 
-int exibirFilmes(Filme *lista)
+```int exibirFilmes(Filme *lista)```
 
 Exibe todos os filmes presentes na lista.
 
@@ -89,7 +89,7 @@ Parâmetros: ponteiro para a lista de filmes.
 
 Retorno: número de filmes exibidos.
 
-int exibirAtores(Ator *lista)
+```int exibirAtores(Ator *lista)```
 
 Exibe todos os atores de um filme.
 
