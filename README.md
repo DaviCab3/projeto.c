@@ -49,7 +49,7 @@ Ponteiros para o ator anterior e próximo
 
 📑 Documentação do Código
 Funções
-Filme* criarFilme(char *titulo, int ano)
+'''Filme* criarFilme(char *titulo, int ano)'''
 
 Cria um novo filme.
 
