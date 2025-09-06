@@ -97,5 +97,12 @@ Parâmetros: ponteiro para a lista de atores.
 
 Retorno: número de atores exibidos.
 
+```Filme* lerFilmesDoArquivo(char *nomeArquivo) ```
+Lê filmes e atores de um arquivo de texto e cria a lista de filmes.
 
+Parâmetros:
+
+nomeArquivo → nome do arquivo contendo os filmes (ex.: "filmes.txt").
+
+Retorno: ponteiro para a lista de filmes ou NULL se houver erro ao abrir o arquivo.
 
