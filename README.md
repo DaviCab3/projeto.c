@@ -143,4 +143,11 @@ Atores: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss
 
 
 
+Desafios Enfrentados :
+1- Ligar a lista encadeada de filmes com a de atores ( ainda nao tinha feito isso ).
+2- Ler arquivos e organizá-los nas listas ( tenho dificuldade em mexer com arquivos).
+3- Fazer a função que nao fosse básica de estrutura de dados , como a de busca , que envolve uso de strings.
+
+
+
 
