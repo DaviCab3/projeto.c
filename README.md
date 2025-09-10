@@ -106,3 +106,8 @@ nomeArquivo → nome do arquivo contendo os filmes (ex.: "filmes.txt").
 
 Retorno: ponteiro para a lista de filmes ou NULL se houver erro ao abrir o arquivo.
 
+
+
+
+Exemplos de uso do codigo
+
