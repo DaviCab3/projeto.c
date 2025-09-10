@@ -15,22 +15,20 @@ typedef struct Filme {
     Ator *atores;
 } Filme;
 
-// ================== CRIAR ==================
 Filme* criarFilme(char *titulo, int ano);
 Ator* criarAtor(char *nome);
 
-// ================== INSERIR ==================
 int inserirFilme(Filme **lista, Filme *novo);
 int inserirAtor(Filme *filme, Ator *novo);
 
-// ================== EXIBIR ==================
+
 int exibirAtores(Ator *lista);
 int exibirFilmes(Filme *lista);
 
-// ================== BUSCAR ==================
+
 Filme* buscarFilme(Filme *lista, char *titulo);
 
-// ================== ARQUIVO ==================
+
 int lerArquivoFilmes(const char *nomeArquivo, Filme **lista);
 
 #endif
