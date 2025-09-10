@@ -97,7 +97,7 @@ Parâmetros: ponteiro para a lista de atores.
 
 Retorno: número de atores exibidos.
 
-```Filme* lerFilmesDoArquivo(char *nomeArquivo) ```
+```int lerArquivoFilmes(char *nomeArquivo, Filme  ** lista) ```
 Lê filmes e atores de um arquivo de texto e cria a lista de filmes.
 
 Parâmetros:
@@ -106,8 +106,41 @@ nomeArquivo → nome do arquivo contendo os filmes (ex.: "filmes.txt").
 
 Retorno: ponteiro para a lista de filmes ou NULL se houver erro ao abrir o arquivo.
 
+```Filme* buscarFilme(Filme *lista, char *titulo)```
+Procura um filme na lista de filmes pelo seu título.
+ 
+  lista: ponteiro para a lista de filmes (Filme*).
+  titulo: string com o título do filme que se deseja buscar.
+ 
+  Retorno:
+    Ponteiro para o nó do filme encontrado, caso exista.
+    NULL caso o filme não seja encontrado na lista.
+ 
+ Observações:
+    - A busca é sensível a maiúsculas e minúsculas.
+  - Retorna o primeiro filme que corresponde exatamente ao título informado.
+
+
+Exemplo de uso do codigo : 
+
+
+=== Lista de Filmes ===
+Filme: Pulp Fiction (1994)
+Atores: John Travolta, Uma Thurman, Samuel L. Jackson, Bruce Willis
+
+Filme: Matrix (1999)
+Atores: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss
+
+Filme: Inception (2010)
+Atores: Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardy
+
+
+Digite o título do filme que deseja buscar: Matrix
+
+Filme encontrado:
+Título: Matrix (1999)
+Atores: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss
 
 
 
-Exemplos de uso do codigo
 
