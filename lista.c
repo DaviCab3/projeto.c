@@ -3,7 +3,7 @@
 #include <string.h>
 #include "LISTA.h"
 
-// ----------------- CRIAR FILME -----------------
+//  CRIAR FILME 
 Filme* criarFilme(char *titulo, int ano) {
     Filme *novo = (Filme*) malloc(sizeof(Filme));
     if (!novo) return NULL;
@@ -17,7 +17,7 @@ Filme* criarFilme(char *titulo, int ano) {
     return novo;
 }
 
-// ----------------- CRIAR ATOR -----------------
+//  CRIAR ATOR 
 Ator* criarAtor(char *nome) {
     Ator *novo = (Ator*) malloc(sizeof(Ator));
     if (!novo) return NULL;
@@ -29,7 +29,7 @@ Ator* criarAtor(char *nome) {
     return novo;
 }
 
-// ----------------- INSERIR FILME -----------------
+
 int inserirFilme(Filme **lista, Filme *novo) {
     if (!novo) return 0;
 
@@ -48,7 +48,7 @@ int inserirFilme(Filme **lista, Filme *novo) {
     return 1;
 }
 
-// ----------------- INSERIR ATOR -----------------
+
 int inserirAtor(Filme *filme, Ator *novo) {
     if (!filme || !novo) return 0;
 
@@ -67,7 +67,7 @@ int inserirAtor(Filme *filme, Ator *novo) {
     return 1;
 }
 
-// ----------------- EXIBIR ATORES -----------------
+//  EXIBIR ATORES 
 int exibirAtores(Ator *lista) {
     if (!lista) return 0;
 
@@ -82,7 +82,7 @@ int exibirAtores(Ator *lista) {
     return 1;
 }
 
-// ----------------- EXIBIR FILMES -----------------
+
 int exibirFilmes(Filme *lista) {
     if (!lista) return 0;
 
@@ -99,7 +99,7 @@ int exibirFilmes(Filme *lista) {
     return 1;
 }
 
-// ----------------- BUSCAR FILME -----------------
+//  BUSCAR FILME 
 Filme* buscarFilme(Filme *lista, char *titulo) {
     if (!lista) return NULL;
 
@@ -113,7 +113,7 @@ Filme* buscarFilme(Filme *lista, char *titulo) {
     return NULL;
 }
 
-// ----------------- LER ARQUIVO -----------------
+// LER ARQUIVO 
 int lerArquivoFilmes(const char *nomeArquivo, Filme **lista) {
     FILE *fp = fopen(nomeArquivo, "r");
     if (!fp) {
