@@ -1,4 +1,4 @@
-# projeto.c
+# Trabalho Final AED1
 🎬 Sistema de Filmes e Atores
 
 Autor: Davi Gonçalves Cabeceira
