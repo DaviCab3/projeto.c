@@ -149,5 +149,5 @@ Desafios Enfrentados :
 3- Fazer a função que nao fosse básica de estrutura de dados , como a de busca , que envolve uso de strings.
 
 
-
+Em resumo, o projeto cumpriu o objetivo de construir um sistema de cinema modular e funcional, ao mesmo tempo em que consolidou conhecimentos fundamentais de estruturas de dados, manipulação de strings, arquivos e ponteiros
 
